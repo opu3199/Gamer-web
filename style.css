@@ -1,0 +1,262 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5em 10em;
+    align-items: center;
+}
+nav h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 3em;
+}
+nav span{
+    color: deeppink;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav li{
+    margin-right: 3em;
+}
+nav a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+nav a:hover{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.banner{
+    display: flex;
+    gap: 20em;
+    justify-content: center;
+    background-color:rgb(243, 235, 237);
+    
+
+}
+.banner-contant{
+    margin-top: 3em;
+    background-color:rgb(243, 235, 237);
+    padding: 50px;
+
+}
+.banner-contant h2{
+    font-size: 30px;
+}
+.banner-contant h1{
+    font-size: 60px;
+    color:rgb(150, 43, 150);
+    
+}
+.banner img{
+    width: 500px;
+}
+.banner-contant .btn1{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: deeppink;
+    border: none;
+
+}
+.banner-contant .btn2{
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color:deepskyblue;
+    border: none;
+
+}
+.game-title{
+    text-align: center;
+
+}
+.game-img{
+   display: flex;
+   justify-content: center;
+   padding: 20px 50px;
+   gap: 2em;
+}
+.game-img div{
+    text-align: center;
+    align-items: center;
+    width: 250px;
+}
+.game-img img{
+    width:100%;
+
+}
+.game-title h3{
+    font-size: 30px;
+}
+.fun{
+    color:rgb(221, 42, 221);
+}
+.play-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+.play-banner{
+    text-align: center;
+    margin: 0 30px;
+    padding: 0 100px;
+    width: 300px;
+    margin-top: -7em;
+}
+.play-pera{
+    font-size: 40px;
+    font-weight: bold;
+}
+.play-pera span{
+    color: deeppink;
+}
+.pera2{
+    margin-top: -1em;
+}
+.play-img {
+    width:30%;
+    height: 30%;
+}
+.play-img img{
+    width: 100%;
+    padding-top: 5em;
+}
+.img2 img{
+    width: 50%;
+}
+.img2{
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px){
+   
+    nav,
+    .banner,
+    .game-img
+    {
+        flex-direction: column;
+    }
+    nav h1{
+        padding-right: 1em;
+    }
+    nav ul li{
+        padding-left: 4em;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 1em;
+        font-weight: bold;
+    }
+    
+    .banner{
+        gap:1em;
+        flex-direction: column-reverse;
+        padding: 20px 50px;
+        background-color: white;
+        padding-left: 4em;
+        margin-left: 1em;
+    }
+    .banner-contant{
+        padding: 20px 30px;
+        text-align: center;
+        
+    }
+    .banner img{
+        width: 100%; 
+    
+    }
+    .game-container{
+        margin-left: 3em;
+    }
+   
+   .play-container{
+    flex-direction: column;
+    margin-top: 5em;
+    
+   }
+   .play-img{
+    width: 100%;
+    margin-top: -2em;
+
+   }
+   .play-img img{
+    width: 80%;
+    margin-top: -3em;
+    padding-left: 4em;
+   }
+   .img2 img{
+    width: 40%;
+    position: relative;
+    bottom: -100px;
+    left: 50px;
+
+   }
+  
+    
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    nav,
+    .banner
+    {
+        flex-direction: column;
+    }
+    nav h1{
+        padding-right: 3em;
+
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 1em;
+        font-weight: bold;
+        margin-left: 1em;
+    }
+    
+    .banner{
+        gap:1em;
+        flex-direction: column-reverse;
+        padding: 20px 50px;
+        background-color: white;
+    }
+    .banner-contant{
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .banner img{
+        width: 100%;  
+    }
+    .game-img{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .play-container{
+        flex-direction: column;
+        margin-top: 5em;
+        
+       }
+       .play-img{
+        width: 60%;
+        margin-top: -4em;    
+}
+.img2 img{
+    width: 40%;
+    position: relative;
+    bottom: -100px;
+    left: 50px;
+   
+   }
+
+
+}
