@@ -55,14 +55,14 @@ nav a:hover{
     display: flex;
     gap: 20em;
     justify-content: center;
-    background-color:rgb(243, 235, 237);
     
 
 }
 .banner-contant{
     margin-top: 3em;
-    background-color:rgb(243, 235, 237);
     padding: 50px;
+    background-image: url(./images/Group\ 14.png);
+
 
 }
 .banner-contant h2{
@@ -101,6 +101,13 @@ nav a:hover{
    padding: 20px 50px;
    gap: 2em;
 }
+.game-img p{
+    margin-top: -40px;
+}
+.game-img img:hover{
+    border: 2px solid deeppink;
+    border-radius: 15px;
+}
 .game-img div{
     text-align: center;
     align-items: center;
@@ -108,7 +115,20 @@ nav a:hover{
 }
 .game-img img{
     width:100%;
+}
+.game-img i{
+    position: relative;
+    bottom: 150px;
+    border: 1px solid white;
+    width: 50px;
+    border-radius: 30%;
+    background-color: aliceblue;
 
+}
+.watch{
+    position: relative;
+    bottom: 150px;
+    font-weight: bold;
 }
 .game-title h3{
     font-size: 30px;
@@ -160,12 +180,17 @@ nav a:hover{
     grid-template-columns: repeat(5, 1fr);
     padding: 1em 10em;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
 }
 .action-container div{
     display: flex;
     gap: 10px;
+}
+.action-container div:hover{
+    border: 1px solid deeppink;
+    border-radius: 20px;
+
 }
 .last{
     background-color:black;
@@ -204,6 +229,9 @@ nav a:hover{
 }
 .nabver span{
     color: deeppink;
+}
+.gam img{
+    width: 60px;
 }
 
 
@@ -261,6 +289,10 @@ nav a:hover{
         align-items: center;
         margin-left: 10px;
     }
+    .game-img img:hover{
+        border: 2px solid deeppink;
+        border-radius: 15px;
+    }
    
    .play-container{
     flex-direction: column;
@@ -295,7 +327,10 @@ margin-right: 10px;
    .action-container{
     grid-template-columns: repeat(3,1fr);
     margin-left: 60px;
-   
+   }
+   .action-container div:hover{
+    border: 1px solid deeppink;
+    border-radius: 20px;
    }
    .action-container div{
     justify-content: center;
@@ -315,13 +350,14 @@ margin-right: 10px;
    }
  
    .last{
-    width:340px ;
+    width:370px ;
    }
    .foot{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2px;
-    margin-left: 2em;
+    gap: 3px;
+    margin-left: 4em;
+    margin-top: 15px;
    }
    .foot-pera{
     padding: 10px 50px;
