@@ -244,6 +244,7 @@ nav a:hover{
     }
     .banner-contant{
         padding: 20px 30px;
+    margin-left:10px ;
         text-align: center;
         
     }
@@ -258,6 +259,7 @@ nav a:hover{
     .game-img{
         justify-content: center;
         align-items: center;
+        margin-left: 10px;
     }
    
    .play-container{
@@ -266,13 +268,15 @@ nav a:hover{
     
    }
    .play-banner{
-    width: 30%;
+    width: 60%;
     margin-top: 2em;
 text-align: center;
+margin-right: 10px;
    }
    .play-img{
     width: 100%;
     margin-top: -2em;
+    margin-left: 10px;
 
    }
    .play-img img{
@@ -290,7 +294,7 @@ text-align: center;
    }
    .action-container{
     grid-template-columns: repeat(3,1fr);
-    margin-left: 50px;
+    margin-left: 60px;
    
    }
    .action-container div{
@@ -311,7 +315,7 @@ text-align: center;
    }
  
    .last{
-    width:350px ;
+    width:340px ;
    }
    .foot{
     display: grid;
