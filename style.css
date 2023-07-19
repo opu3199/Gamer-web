@@ -18,6 +18,11 @@ nav ul{
     display: flex;
     list-style: none;
 }
+.follow{
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: gray;
+}
 nav li{
     margin-right: 3em;
 }
@@ -146,7 +151,43 @@ nav a:hover{
     display: flex;
     gap: 10px;
 }
+.last{
+    background-color:black;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+}
+.nabver{
+   text-align: center;
 
+}
+.nabver ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.nabver a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.foot-pera{
+    text-align: center;
+}
+.nabver span{
+    color: deeppink;
+}
 
 
 
@@ -171,6 +212,8 @@ nav a:hover{
         flex-direction: column;
         gap: 1em;
         font-weight: bold;
+        width: 200px;
+    text-align: center;
     }
     
     .banner{
@@ -241,6 +284,26 @@ text-align: center;
     width: 20px;
     height: 30px;
    }
+   .nabver ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-right: 2em;
+
+   }
+   .last{
+    width:350px ;
+   }
+   .foot{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2px;
+    margin-left: 2em;
+   }
+   .foot-pera{
+    padding: 10px 50px;
+   }
   
   
     
@@ -298,6 +361,9 @@ text-align: center;
     bottom: -100px;
     left: 50px;
    
+   }
+   .follow{
+    margin-left: -10px;
    }
 
 
