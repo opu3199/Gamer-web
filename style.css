@@ -172,6 +172,7 @@ nav a:hover{
     text-decoration: none;
     color: white;
 }
+
 .logo{
     display: flex;
     justify-content: center;
@@ -292,6 +293,7 @@ text-align: center;
     margin-right: 2em;
 
    }
+ 
    .last{
     width:350px ;
    }
