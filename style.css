@@ -1,3 +1,4 @@
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -133,6 +134,18 @@ nav a:hover{
     bottom: 300px;
     right: 100px;
 }
+.action-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 1em 10em;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.action-container div{
+    display: flex;
+    gap: 10px;
+}
 
 
 
@@ -215,6 +228,20 @@ text-align: center;
     left: 45px;
 
    }
+   .action-container{
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 50px;
+   
+   }
+   .action-container div{
+    justify-content: center;
+    align-items: center;
+   }
+   .action-container div img {
+    width: 20px;
+    height: 30px;
+   }
+  
   
     
 }
@@ -253,7 +280,9 @@ text-align: center;
     .game-img{
         display: grid;
         grid-template-columns: repeat(2,1fr);
+        margin-left: 60px;
     }
+
     .play-container{
         flex-direction: column;
         margin-top: 5em;
