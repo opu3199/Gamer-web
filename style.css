@@ -147,11 +147,12 @@ nav a:hover{
     {
         flex-direction: column;
     }
-    nav h1{
-        padding-right: 1em;
+    nav{
+        width: 30%;
     }
-    nav ul li{
-        padding-left: 4em;
+    nav h1{
+        padding-right: 3em;
+    
     }
     nav ul{
         flex-direction: column;
@@ -164,8 +165,9 @@ nav a:hover{
         flex-direction: column-reverse;
         padding: 20px 50px;
         background-color: white;
-        padding-left: 4em;
-        margin-left: 1em;
+        width: 87%;
+       
+      
     }
     .banner-contant{
         padding: 20px 30px;
@@ -173,17 +175,27 @@ nav a:hover{
         
     }
     .banner img{
-        width: 100%; 
+        width: 100%;
+
     
     }
     .game-container{
-        margin-left: 3em;
+       margin-left: 3.5em;
+    }
+    .game-img{
+        justify-content: center;
+        align-items: center;
     }
    
    .play-container{
     flex-direction: column;
-    margin-top: 5em;
+    width: 112%;
     
+   }
+   .play-banner{
+    width: 30%;
+    margin-top: 2em;
+text-align: center;
    }
    .play-img{
     width: 100%;
@@ -191,15 +203,16 @@ nav a:hover{
 
    }
    .play-img img{
-    width: 80%;
+    width: 77%;
+    padding-left: 50px;
     margin-top: -3em;
-    padding-left: 4em;
+  
    }
    .img2 img{
-    width: 40%;
+    width: 30%;
     position: relative;
-    bottom: -100px;
-    left: 50px;
+    bottom: -140px;
+    left: 45px;
 
    }
   
